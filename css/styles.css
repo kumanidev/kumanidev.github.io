@@ -58,7 +58,7 @@ nav li {
     border-radius: 8px; 
 }
 
-main.about-container {
+.about-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -71,6 +71,13 @@ main.about-container {
     grid-column: span 2;
     margin-bottom: 20px;
 }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 
 .project {
     border: 1px solid #ddd;
