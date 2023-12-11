@@ -28,12 +28,12 @@ main {
     padding: 20px;
 }
 
-main.intro-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
+.intro-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    margin: 0;
+  }
 
 .intro-image img {
     max-width: 100%; 
