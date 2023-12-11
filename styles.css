@@ -46,6 +46,20 @@ main.intro-container {
     border-radius: 8px; 
 }
 
+main.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-text {
+    grid-column: span 2;
+    margin-bottom: 20px;
+}
+
 .project {
     border: 1px solid #ddd;
     border-radius: 8px;
