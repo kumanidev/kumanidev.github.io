@@ -31,15 +31,22 @@ main {
 .intro-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
-    margin: 0;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+  
+.intro-image {
+    overflow: hidden;
+}
 
 .intro-image img {
-    max-width: 30%; 
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-}
+    display: block;
+  }
+  
 .intro-text {
     flex: 1;
     max-width: 600px;
