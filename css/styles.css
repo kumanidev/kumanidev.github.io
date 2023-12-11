@@ -72,6 +72,15 @@ nav li {
     margin-bottom: 20px;
 }
 
+.project-page-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    gap: 20px;
+}
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
