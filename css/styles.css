@@ -136,6 +136,11 @@ footer {
 
 @media (max-width: 414px) {
 
+    .intro-container {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
     .projects-container {
         display: grid;
         grid-template-columns: 1fr;
