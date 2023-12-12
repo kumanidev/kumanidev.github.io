@@ -137,10 +137,12 @@ footer {
 @media (max-width: 414px) {
 
     .projects-container {
-        grid-template-columns: 1fr; /* Display projects in a single column */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .project {
-        width: 100%; /* Make each project take the full width */
+        width: 100%; 
     }
 }
