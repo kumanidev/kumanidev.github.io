@@ -143,4 +143,12 @@ footer {
         display: block;
         margin: 10px 0;
     }
+
+    .projects-container {
+        grid-template-columns: 1fr; /* Display projects in a single column */
+    }
+
+    .project {
+        width: 100%; /* Make each project take the full width */
+    }
 }
