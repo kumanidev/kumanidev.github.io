@@ -135,14 +135,6 @@ footer {
 }
 
 @media (max-width: 414px) {
-    nav ul {
-        text-align: center;
-    }
-
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
 
     .projects-container {
         grid-template-columns: 1fr; /* Display projects in a single column */
