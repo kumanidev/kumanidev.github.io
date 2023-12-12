@@ -135,3 +135,14 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
